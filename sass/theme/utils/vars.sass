@@ -1,7 +1,32 @@
-// Sizes
+// Bootstrap 4.x Settings
+//
+// Table of Contents
+//
+// a. Global
+// b. Colors
+// c. Base
+// d. Grid
+// e. Media Query Ranges
+// f. Typography
+// g. Toggle Utils
+// h. Buttons + forms
+// 01. Buttons
+// 02. Images
+// 03. Box, Cards, Panel & Block
+// 04. Navs, Navbar
+// 05. Forms
+// 06. Dropdowns
+// 07. Banner height
+// 08. Badge
+// 09. Modal
+// 10. Pagination
+
+// a. Global
+// =========
 $base-font-size: 16px
 
-
+// a. Grid
+// =========
 $phone       : 400px
 //todo: phone: 400px
 $phone-wide  : 480px
@@ -18,12 +43,8 @@ $desktop     : 1248px
 //todo:desktop: 1248px
 $desktop-wide: 1440px
 //todo: desktop-wide: 1440px
-
-
-$content-size: 1024px
-
-
-// breakpoints
+// a.2 breakpoints
+// =========
 $S:     480px
 //todo: S:480px
 $M:     768px
@@ -35,25 +56,19 @@ $L:     1024px
 $XL:    1239px
 //todo:XL:1239px
 
+
+$content-size: 1024px
+
 // Colores Base
 $white          : #fff
 $lightGray      : #C4C4C4
 $gainsboro      : #F3F3F3
 $silver         : #C0C0C0
-$darkGray       : #4d4d4d
+$light-gray       : #4d4d4d
 $gray           : #787270
 $dimGray        : #696969
-$lightBlack     : #646464
+$dark-gray     : #646464
 $black          : #000000
-
-//translate animation
-$trs-site       : all 500ms ease
-//
-$shadow			: 0 3px 8px 0 rgba($black, 0.35)
-$boxShadowTop			: 0 12px 11px 11px rgba($black, 0.15)
-$boxShadow			: 0 12px 11px 0 rgba($black, 0.15)
-$txt-shadow		:  2px 2px 2px rgba($black, 0.66)
-
 // Colores de sitio
 // Yellow
 $darkYellow     : #d9921f
@@ -70,6 +85,24 @@ $darkBlue       : #0C3E50
 $blue           : #0977DB
 $lightBlue      : #3093CC
 $skyBlue      	: #e7edf2
+
+$primary: $black
+$secondary: $black
+$success: $blue
+$info: $blue
+$warning: $lightRed
+$danger: $lightRed
+$light: $light-gray
+$dark: $dark-gray
+
+//translate animation
+$trs-site       : all 500ms ease
+//
+// shadows
+$box-shadow: 0px 3px 6px rgba($black, 0.16);
+$box-shadow-sm: 0px 1px 6px rgba($black, 0.16);
+$box-shadow-md: 0 7px 13px rgba($black, 0.09);
+
 
 //  Color WEB
 /*,f8bba1,444444,4d4d4d,e3e2df*/
@@ -109,9 +142,13 @@ $spacers4: rem-calc(20px)
 $spacers5: rem-calc(40px)
 $spacers6: rem-calc(25px)
 
+
 $card-site-border-radius: rem-calc(16px)
 $card-site-radius: rem-calc(6px)
 
+// f. Typography
+// =============
+// base family
 // Fuentes del sitio
 $primary-font: 'Alata', sans-serif;
 $pf: $primary-font

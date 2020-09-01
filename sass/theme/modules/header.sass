@@ -1,3 +1,10 @@
+header
+	position: absolute
+	width: 100%
+	top: 0
+	left: 0
+	z-index: 1
+
 .box_navbar
 	background-color: transparent
 .navbar-site
@@ -36,7 +43,7 @@
 				a.nav-link
 					+MQ(L)
 						color: $white
-						background-color: $Primary
+						background-color: $primary
 						padding: $spacers3 25px
 						border-radius: 50px
 						box-shadow: 0px 7px 18px -2px rgba(0,0,0,0.31)
@@ -44,18 +51,18 @@
 							color: $white
 		li.current_page_item.active
 			a
-				color: $Primary
+				color: $primary
 
 		a.nav-link
-			color: $Second
+			color: $secondary
 			padding: $spacers4
 			text-transform: uppercase
 			+press
-				color: $Primary
+				color: $primary
 
 // NAVS GENERA
 .nav-tabs
 	.nav-link
 		color: $gray
 		&.active
-			color: $Primary
+			color: $primary

@@ -11,7 +11,7 @@
 // g. Toggle Utils
 // h. Buttons + forms
 // 01. Buttons
-// 02. Images
+// 02. Icons
 // 03. Box, Cards, Panel & Block
 // 04. Navs, Navbar
 // 05. Forms
@@ -58,42 +58,34 @@ $XL:    1239px
 
 
 $content-size: 1024px
-
+// b. Colors
+// =========
 // Colores Base
 $white          : #fff
 $lightGray      : #C4C4C4
 $gainsboro      : #F3F3F3
 $silver         : #C0C0C0
-$light-gray       : #4d4d4d
+$light-gray     : #4d4d4d
 $gray           : #787270
 $dimGray        : #696969
-$dark-gray     : #646464
+$dark-gray     	: #333333
 $black          : #000000
 // Colores de sitio
 // Yellow
-$darkYellow     : #d9921f
-$yellow         : #eadf24
-$lightYellow    : #e8e185
-//Red
-$darkRed        : #D1141D
-$red            : #a13546
-$lightRed       : #EE444C
+//$darkYellow     :
+$yellow         : #FFC100
+$lightYellow    : #FFE696
+$salmon 		: #FF2C4B
 
-// blue
-$blueFooter		: #0053CC
-$darkBlue       : #0C3E50
-$blue           : #0977DB
-$lightBlue      : #3093CC
-$skyBlue      	: #e7edf2
 
-$primary: $black
-$secondary: $black
+$primary: $yellow
+$primary-light: $lightYellow
+$secondary: $dark-gray
+$terciary: $salmon
 $success: $blue
 $info: $blue
-$warning: $lightRed
-$danger: $lightRed
 $light: $light-gray
-$dark: $dark-gray
+$dark: $black
 
 //translate animation
 $trs-site       : all 500ms ease
@@ -105,12 +97,16 @@ $box-shadow-md: 0 7px 13px rgba($black, 0.09);
 
 
 //  Color WEB
-/*,f8bba1,444444,4d4d4d,e3e2df*/
-$Primary      	: #f20e4c
-$PrimaryLight   : #f8bba1
-$SecondBold     : #444444
-$Second      	: #4d4d4d
-$SecondLight    : #e3e2df
+
+// Font Weight
+$weight-bold: 900
+$weight-normal: 700
+$weight-light: 500
+
+// Font lineheight
+$lineheight-small: .8
+$lineheight-larger: 1.5
+$lineheight-bigger: 1.7
 
 // text size
 $font-size-base: 1rem; // 16px base from $global-font-size
@@ -118,8 +114,8 @@ $font-size-base: 1rem; // 16px base from $global-font-size
 $text-medium: $font-size-base
 $text-tiny: rem-calc(11px)
 $text-small: rem-calc(13px)
-$text-large: rem-calc(75px)
-$text-bigger: rem-calc(21px)
+$text-bigger: rem-calc(65px)
+$text-large: rem-calc(95px)
 
 $font-size-lg: $text-large
 $font-size-sm: $text-small
@@ -150,7 +146,7 @@ $card-site-radius: rem-calc(6px)
 // =============
 // base family
 // Fuentes del sitio
-$primary-font: 'Alata', sans-serif;
+$primary-font: 'Montserrat', sans-serif;
 $pf: $primary-font
 //$primary-font: 'Nunito', sans-serif
 $second-font: 'Open Sans', sans-serif
@@ -165,3 +161,12 @@ $fontPath: "/fonts/"
 //Ruing GIT
 $gitPath: "./../images/"
 $localPath: "/../images/"
+
+// 01. Buttons
+// 02. Icons
+$sizeIconMax: rem-calc(93px)
+$sizeIconMin: rem-calc(23px)
+$sizeLogoWithMax: rem-calc(250px)
+$sizeLogoHeightMax: rem-calc(58px)
+// 03. Box, Cards, Panel & Block
+$heightSection: rem-calc(900px)

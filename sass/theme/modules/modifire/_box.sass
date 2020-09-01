@@ -3,6 +3,11 @@
 .box-footer
 	p
 		color: $black
+.box-general
+	h2, h3
+		font-size: $text-bigger
+		font-weight: $weight-bold
+		line-height: $lineheight-small
 .box-intro
 	h1, h2, h3
 		font-size: $text-large
@@ -11,11 +16,32 @@
 		color: $primary
 		span
 			color: $primary-light
-.box-app
+
+.box-racer
 	h2, h3
-		font-size: $text-bigger
-		font-weight: $weight-bold
-		line-height: $lineheight-small
 		color: $white
 		span
 			color: $terciary
+	.subtitle
+		h2, h3
+			font-size: $h2-font-size
+	.paragraf
+		p
+			font-size: $h5-font-size
+.box-app
+	h2, h3
+		color: $white
+		span
+			color: $terciary
+	&-image
+		position: relative
+		min-height: $heightBoxAppImage
+		figure.item
+			display: inline-block
+			position: absolute
+			&-01
+				top: -65px
+				right: -65px
+			&-02
+				top: 100px
+				left: -175px

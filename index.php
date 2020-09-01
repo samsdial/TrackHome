@@ -46,7 +46,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 <section class="bgi app" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-app.png')">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col"></div>
+			<div class="col">
+				<div class="box box-app box-app-image">
+					<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-01.png" alt=""></figure>
+					<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-02.png" alt=""></figure>
+				</div>
+			</div>
 			<div class="col">
 				<div class="box box-general box-app text-uppercase">
 					<h2>
@@ -64,9 +69,41 @@ $container = get_theme_mod( 'understrap_container_type' );
 	</div>
 </section>
 <!-- APP END-->
-<!-- CRITERIUM -->
-<section class="criterium"></section>
-<!-- CRITERIUM END-->
+<!-- RACE -->
+<section class="race">
+	<ul class="js-slider-race">
+		<li class="li">
+			<div class="bgi racer" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-race-01.png')">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col"></div>
+						<div class="col">
+							<div class="box box-general box-racer">
+								<div class="title text-uppercase mb-2">
+									<h2>
+										CRITERIUMS
+									</h2>
+								</div>
+								<div class="subtitle mb-3">
+									<h2>
+										<span>Compite en grandes carreras</span>
+									</h2>
+								</div>
+								<div class="paragraf">
+									<p class="c">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eligendi. <b>Enim praesentium eos fuga suscipit!</b>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="li"></li>
+	</ul>
+</section>
+<!-- RACE END-->
 <!-- MEMBER -->
 <section class="member"></section>
 <!-- MEMBER END-->

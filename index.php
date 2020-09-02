@@ -105,7 +105,89 @@ $container = get_theme_mod( 'understrap_container_type' );
 </section>
 <!-- RACE END-->
 <!-- MEMBER -->
-<section class="member"></section>
+<section class="bgi member" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-member.png')">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 my-5">
+				<div class="box box-member box-member-intro">
+					<div class="title text-center">
+						<h2>
+						 	Para los deportistas de Fin de semana y para los que dan el todo por el todo.
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row align-items-center min-row">
+			<div class="col-12 col-lg-4">
+				<div class="box box-member box-member-max">
+					<div class="title text-uppercase">
+						<h2>
+						 	Mem <br>
+						 	Bre <br>
+						 	Sia
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-8">
+				<div class="box box-member box-member-table">
+					<ul class="inline-list-grid intro mb-3">
+						<li class="w-70"><span></span></li>
+						<li>
+							<i class="icon icon-diamon m-2"></i>
+							<h2>
+								Diamond
+							</h2>
+						</li>
+						<li>
+							<i class="icon icon-gold m-2"></i>
+							<h2>
+								Gold
+							</h2>
+						</li>
+					</ul>
+					<ul class="inline-list-grid content mb-3">
+						<li class="w-70">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, dolore?
+							</p>
+						</li>
+						<li class="text-center"><i class="icon icon-check"></i></li>
+						<li class="text-center"><i class="icon icon-check"></i></li>
+					</ul>
+					<ul class="inline-list-grid content mb-3">
+						<li class="w-70">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, dolore?
+							</p>
+						</li>
+						<li class="text-center"><i class="icon icon-check"></i></li>
+						<li class="text-center"><i class="icon icon-check"></i></li>
+					</ul>
+					<ul class="inline-list-grid content mb-3">
+						<li class="w-70">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, dolore?
+							</p>
+						</li>
+						<li class="text-center"><i class="icon icon-check"></i></li>
+						<li class="text-center"><i class="icon icon-check"></i></li>
+					</ul>
+					<ul class="inline-list-grid content mb-3">
+						<li class="w-70">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, dolore?
+							</p>
+						</li>
+						<li class="text-center"><i class="icon icon-check"></i></li>
+						<li class="text-center"><i class="icon icon-check"></i></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <!-- MEMBER END-->
 <!-- PEOPLE -->
 <section class="people"></section>

@@ -74,3 +74,32 @@
 					font-size: $h5-font-size
 					font-weight: $weight-bold
 					text-transform: uppercase
+//BOX PEOPLE
+.box-people
+	display: flex
+	figure
+		width: rem-calc(260px)
+	.content
+		width: 45%
+		.paragraf
+			margin-bottom: $spacers2
+		.title
+			h2, h3
+				font-size: $h6-font-size
+				color: $primary
+				font-weight: $weight-normal
+				text-transform: uppercase
+	figure,
+	.content
+		flex: 1 auto
+		padding: $spacers2
+		align-self: center !important
+
+//BOX PARTNERS
+.box-partners
+	vertical-align: middle
+	display: flex
+	height: rem-calc(80px)
+	img
+		vertical-align: middle
+		align-self: center

@@ -118,7 +118,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 			</div>
 		</div>
-		<div class="row align-items-center min-row">
+		<div class="row align-items-center min-row pb-5">
 			<div class="col-12 col-lg-4">
 				<div class="box box-member box-member-max">
 					<div class="title text-uppercase">
@@ -187,13 +187,82 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 		</div>
 	</div>
+
 </section>
 <!-- MEMBER END-->
 <!-- PEOPLE -->
-<section class="people"></section>
+<section class="bgi people" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-people.png')">
+	<div class="container">
+		<div class="row py-5">
+			<ul class="js-list-people">
+				<li>
+					<div class="box box-people">
+						<figure><img class="img-fluid " src="<?php bloginfo('template_directory') ?>/images/theme/people-1.png" alt="people"></figure>
+						<div class="content">
+							<div class="paragraf">
+								<p>
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sed amet hic cumque voluptate repudiandae, voluptatem, saepe corrupti sequi neque tempora! Quasi pariatur aliquid officia consectetur quam temporibus, a recusandae.
+								</p>
+							</div>
+							<div class="title">
+								<h2>
+									Martin Gómez
+								</h2>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="box box-people">
+						<figure><img class="img-fluid " src="<?php bloginfo('template_directory') ?>/images/theme/people-1.png" alt="people"></figure>
+						<div class="content">
+							<div class="paragraf">
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae quisquam rerum ducimus quaerat eaque natus.
+								</p>
+							</div>
+							<div class="title">
+								<h2>
+									Martin Gómez
+								</h2>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
 <!-- PEOPLE END-->
 <!-- PARTNERS -->
-<section class="partners"></section>
+<section class="partners">
+	<div class="container">
+		<div class="row py-5">
+			<ul class="js-list-partners w-100">
+				<li class="align-middle">
+					<div class="box box-partners px-4">
+						<img class="img-fluid " src="<?php bloginfo('template_directory') ?>/images/theme/logo-01.png" alt="people">
+					</div>
+				</li>
+				<li class="align-middle">
+					<div class="box box-partners px-4">
+						<img class="img-fluid " src="<?php bloginfo('template_directory') ?>/images/theme/logo-02.png" alt="people">
+					</div>
+				</li>
+				<li class="align-middle">
+					<div class="box box-partners px-4">
+						<img class="img-fluid " src="<?php bloginfo('template_directory') ?>/images/theme/logo-03.png" alt="people">
+					</div>
+				</li>
+				<li class="align-middle">
+					<div class="box box-partners px-4">
+						<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-04.png" alt="people">
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
 <!-- PARTNERS END-->
 <?php
 get_footer();

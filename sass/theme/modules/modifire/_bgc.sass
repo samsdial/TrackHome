@@ -4,8 +4,13 @@
 	background-position: center center
 	&.intro
 		background-color: $black
+		+MQMAX(SL)
+			background-position: -261px 112px
+			background-size: 363%
 		.row
 			min-height: $heightSection
+			+MQMAX(SL)
+				min-height: rem-calc(750px)
 	&.app
 		background-color: $primary
 		.row

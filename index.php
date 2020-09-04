@@ -23,11 +23,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
 <!-- INTRO -->
-<section class="bgi intro" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-intro.png')">
+<section id="intro" class="bgi intro" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-intro.png')">
 	<div class="container">
 		<div class="row align-items-center ">
-			<div class="col"></div>
-			<div class="col">
+			<div class="col-12 col-lg-6 order-2 order-lg-1"></div>
+			<div class="col-12 col-lg-6 order-1 order-lg-2">
 				<div class="box box-general box-intro">
 					<h1>
 						PASIÓN
@@ -43,41 +43,120 @@ $container = get_theme_mod( 'understrap_container_type' );
 </section>
 <!-- INTRO END-->
 <!-- APP -->
-<section class="bgi app" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-app.png')">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col">
-				<div class="box box-app box-app-image">
-					<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-01.png" alt=""></figure>
-					<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-02.png" alt=""></figure>
+<section id="app" class="bgi app" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-app.png')">
+	<ul class="js-app slider-app">
+		<li>
+			<div class="container">
+				<div class="row align-items-lg-center">
+					<div class="col-12 col-lg-6">
+						<div class="box box-app box-app-image">
+							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-01.png" alt=""></figure>
+							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-02.png" alt=""></figure>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="box box-general box-app text-uppercase">
+							<h2>
+								Diseñada
+								<br>
+								Pensando
+								<br>
+								en la
+								<br>
+								<span>Competencia</span>
+							</h2>
+							<ul class="inline-list-grid my-5">
+								<li>
+									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+								</li>
+								<li>
+									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="col">
-				<div class="box box-general box-app text-uppercase">
-					<h2>
-						Diseñada
-						<br>
-						Pensando
-						<br>
-						en la
-						<br>
-						<span>Competencia</span>
-					</h2>
+		</li>
+		<li>
+			<div class="container">
+				<div class="row align-items-lg-center">
+					<div class="col-12 col-lg-6">
+						<div class="box box-app box-app-image">
+							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-01.png" alt=""></figure>
+							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-02.png" alt=""></figure>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="box box-general box-app text-uppercase">
+							<h2>
+								Diseñada
+								<br>
+								Pensando
+								<br>
+								en la
+								<br>
+								<span>Competencia</span>
+							</h2>
+							<ul class="inline-list-grid my-5">
+								<li>
+									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+								</li>
+								<li>
+									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
+		</li>
+		<li>
+			<div class="container">
+				<div class="row align-items-lg-center">
+					<div class="col-12 col-lg-6">
+						<div class="box box-app box-app-image">
+							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-01.png" alt=""></figure>
+							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-02.png" alt=""></figure>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="box box-general box-app text-uppercase">
+							<h2>
+								Diseñada
+								<br>
+								Pensando
+								<br>
+								en la
+								<br>
+								<span>Competencia</span>
+							</h2>
+							<ul class="inline-list-grid my-5">
+								<li>
+									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+								</li>
+								<li>
+									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+	</ul>
+
 </section>
 <!-- APP END-->
 <!-- RACE -->
-<section class="race">
-	<ul class="js-slider-race">
-		<li class="li">
+<section id="race" class="race">
+	<ul class="js-race">
+		<li>
 			<div class="bgi racer" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-race-01.png')">
 				<div class="container">
 					<div class="row align-items-center">
-						<div class="col"></div>
-						<div class="col">
+						<div class="col-12 col-lg-6"></div>
+						<div class="col-12 col-lg-6">
 							<div class="box box-general box-racer">
 								<div class="title text-uppercase mb-2">
 									<h2>
@@ -100,12 +179,39 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 			</div>
 		</li>
-		<li class="li"></li>
+		<li>
+			<div class="bgi racer" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-race-01.png')">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-12 col-lg-6"></div>
+						<div class="col-12 col-lg-6">
+							<div class="box box-general box-racer">
+								<div class="title text-uppercase mb-2">
+									<h2>
+										CRITERIUMS
+									</h2>
+								</div>
+								<div class="subtitle mb-3">
+									<h2>
+										<span>Compite en grandes carreras</span>
+									</h2>
+								</div>
+								<div class="paragraf">
+									<p class="c">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eligendi. <b>Enim praesentium eos fuga suscipit!</b>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
 	</ul>
 </section>
 <!-- RACE END-->
 <!-- MEMBER -->
-<section class="bgi member" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-member.png')">
+<section id="member" class="bgi member" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-member.png')">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 my-5">
@@ -191,7 +297,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 </section>
 <!-- MEMBER END-->
 <!-- PEOPLE -->
-<section class="bgi people" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-people.png')">
+<section id="people" class="bgi people" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-people.png')">
 	<div class="container">
 		<div class="row py-5">
 			<ul class="js-list-people">
@@ -235,7 +341,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 </section>
 <!-- PEOPLE END-->
 <!-- PARTNERS -->
-<section class="partners">
+<section id="partners" class="partners">
 	<div class="container">
 		<div class="row py-5">
 			<ul class="js-list-partners w-100">

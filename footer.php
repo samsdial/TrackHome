@@ -14,7 +14,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
-<footer class="py-4">
+<footer id="social" class="py-4">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 mx-auto">

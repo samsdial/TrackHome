@@ -35,6 +35,16 @@
 	.paragraf
 		p
 			font-size: $h5-font-size
+	.deco
+		.circle
+			background-color: $terciary
+			width: 100px
+			height: 100px
+			display: flex
+			border-radius: 50%
+			align-items: center
+			justify-content: center
+
 .box-app
 	h2, h3
 		color: $white
@@ -71,7 +81,7 @@
 	&-intro
 		.title
 			h2, h3
-				font-size: $h3-font-size
+				font-size: $h4-font-size
 				font-weight: $weight-bold
 	&-max
 		.title
@@ -80,10 +90,20 @@
 				font-weight: $weight-bold
 				line-height: $lineheight-small
 				color: $primary
+				+MQMAX(SL)
+					font-size: rem-calc(60px)
+					border-bottom: 2px solid $primary
 	&-table
 		background-color: rgba($black, 0.2)
 		padding: $spacers4
+		+MQMAX(SL)
+			background-color: transparent
+		ul
+			+MQMAX(SL)
+				padding-bottom: $spacers2
+				border-bottom: 1px solid $gray
 		ul.intro
+			border-bottom: 0 solid transparent
 			li
 				vertical-align: bottom
 				text-align: center
@@ -92,6 +112,8 @@
 					display: block
 					height: 2px
 					background-color: $primary
+					+MQMAX(SL)
+						background-color: transparent
 				h2
 					font-size: $h5-font-size
 					font-weight: $weight-bold
@@ -99,10 +121,16 @@
 //BOX PEOPLE
 .box-people
 	display: flex
+	+MQMAX(SL)
+		display: block
 	figure
 		width: rem-calc(260px)
+		+MQMAX(SL)
+			margin: 0 auto
 	.content
 		width: 45%
+		+MQMAX(SL)
+			width: 100%
 		.paragraf
 			margin-bottom: $spacers2
 		.title
@@ -113,9 +141,11 @@
 				text-transform: uppercase
 	figure,
 	.content
-		flex: 1 auto
 		padding: $spacers2
-		align-self: center !important
+		display: block
+		+MQ(SL)
+			align-self: center !important
+			flex: 1 auto
 
 //BOX PARTNERS
 .box-partners
@@ -125,3 +155,4 @@
 	img
 		vertical-align: middle
 		align-self: center
+		margin: 0 auto

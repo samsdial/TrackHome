@@ -1,13 +1,71 @@
 var $ = jQuery;
 $(document).ready(function () {
 	//js-slider-offer
-	$('.js-list-partners').slick({
+	$('.js-partners').slick({
 		slidesToShow: 5,
 		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 5,
+					slidesToScroll: 1,
+					dots: false,
+					arrows: false,
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					dots: false,
+					arrows: false,
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots: false,
+					arrows: false,
+				}
+			}
+		]
 	});
-	$('.js-list-people').slick({
+	$('.js-people').slick({
 		slidesToShow: 2,
 		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 5,
+					slidesToScroll: 1,
+					dots: false,
+					arrows: false,
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots: true,
+					arrows: false,
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots: true,
+					arrows: false,
+				}
+			}
+		]
 	});
 	$('.js-app').slick({
 		slidesToShow: 1,
@@ -27,4 +85,13 @@ $(document).ready(function () {
 		arrows: false,
 	});
 
+});
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });

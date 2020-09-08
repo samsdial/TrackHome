@@ -26,7 +26,10 @@
 	&.people
 		background-color: $black
 		.row
-			min-height: rem-calc(100px)
+			min-height: rem-calc(150px)
+			+MQMAX(SL)
+				min-height: rem-calc(550px)
+
 .bgc
 	&--primary
 		background: $primary

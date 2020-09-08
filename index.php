@@ -47,14 +47,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<ul class="js-app slider-app">
 		<li>
 			<div class="container">
-				<div class="row align-items-lg-center">
-					<div class="col-12 col-lg-6">
+				<div class="row align-items-md-center">
+					<div class="col-12 col-md-6">
 						<div class="box box-app box-app-image">
-							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-01.png" alt=""></figure>
-							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-02.png" alt=""></figure>
+							<figure class="item item-01 " ><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-01.png" alt=""></figure>
+							<figure class="item item-02" ><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-02.png" alt=""></figure>
 						</div>
 					</div>
-					<div class="col-12 col-lg-6">
+					<div class="col-12 col-md-6">
 						<div class="box box-general box-app text-uppercase">
 							<h2>
 								Diseñada
@@ -67,10 +67,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</h2>
 							<ul class="inline-list-grid my-5">
 								<li>
-									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+									<a href="" class="">
+										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+									</a>
 								</li>
 								<li>
-									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+									<a href="" class="">
+										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-google-play.png" alt="">
+									</a>
 								</li>
 							</ul>
 						</div>
@@ -83,27 +87,32 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row align-items-lg-center">
 					<div class="col-12 col-lg-6">
 						<div class="box box-app box-app-image">
-							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-01.png" alt=""></figure>
-							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-02.png" alt=""></figure>
+							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-03.png" alt=""></figure>
+							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-04.png" alt=""></figure>
 						</div>
 					</div>
 					<div class="col-12 col-lg-6">
 						<div class="box box-general box-app text-uppercase">
 							<h2>
+								<span>
+									Gana
+									<br>
+									premios
+								</span>
+								<br>
 								Diseñada
-								<br>
-								Pensando
-								<br>
-								en la
-								<br>
-								<span>Competencia</span>
+								conectando los registros de tus actividades de Garmin, Wahoo y Polar.
 							</h2>
 							<ul class="inline-list-grid my-5">
 								<li>
-									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+									<a href="" class="">
+										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+									</a>
 								</li>
 								<li>
-									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+									<a href="" class="">
+										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-google-play.png" alt="">
+									</a>
 								</li>
 							</ul>
 						</div>
@@ -116,20 +125,78 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row align-items-lg-center">
 					<div class="col-12 col-lg-6">
 						<div class="box box-app box-app-image">
-							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-01.png" alt=""></figure>
-							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-02.png" alt=""></figure>
+							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-05.png" alt=""></figure>
+							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-06.png" alt=""></figure>
 						</div>
 					</div>
 					<div class="col-12 col-lg-6">
 						<div class="box box-general box-app text-uppercase">
 							<h2>
-								Diseñada
-								<br>
-								Pensando
-								<br>
-								en la
-								<br>
-								<span>Competencia</span>
+							<span class="">
+								Participa en la liga virtual,</span>
+								sube de nivel y compite con corredores de tu misma categoría.
+							</h2>
+							<ul class="inline-list-grid my-5">
+								<li>
+									<a href="" class="">
+										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="" class="">
+										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-google-play.png" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="container">
+				<div class="row align-items-lg-center">
+					<div class="col-12 col-lg-6">
+						<div class="box box-app box-app-image">
+							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-07.png" alt=""></figure>
+							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-08.png" alt=""></figure>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="box box-general box-app text-uppercase">
+							<h2>
+								Conviértete en <span class="">el campeón de los Criteriums</span> y el Capo de la temporada.
+							</h2>
+							<ul class="inline-list-grid my-5">
+								<li>
+									<a href="" class="">
+										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="" class="">
+										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-google-play.png" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="container">
+				<div class="row align-items-lg-center">
+					<div class="col-12 col-lg-6">
+						<div class="box box-app box-app-image">
+							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-09.png" alt=""></figure>
+							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-010.png" alt=""></figure>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="box box-general box-app text-uppercase">
+							<h2>
+								Compite contra ti mismo y gana recompensas por romper tus <span class="">propios récords.</span>
 							</h2>
 							<ul class="inline-list-grid my-5">
 								<li>

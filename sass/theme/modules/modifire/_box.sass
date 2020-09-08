@@ -49,7 +49,7 @@
 	h2, h3
 		color: $white
 		+MQMAX(SL)
-			font-size: rem-calc(43px)
+			font-size: rem-calc(38px)
 			text-align: center
 		span
 			color: $terciary
@@ -62,8 +62,12 @@
 			display: inline-block
 			position: absolute
 			width: 75%
+			@media (max-width: $XL)
+				width: 425px
+			+MQMAX(L)
+				width: 325px
 			+MQMAX(SL)
-				width: 83%
+				width: 268px
 			&-01
 				top: -65px
 				right: 0px
@@ -74,6 +78,8 @@
 			&-02
 				top: 80px
 				left: -158px
+				@media (max-width: $XL)
+					left: -85px
 				+MQMAX(SL)
 					top: 0
 					left: 0

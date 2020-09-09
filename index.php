@@ -70,7 +70,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<ul class="inline-list-grid my-5">
 								<li>
 									<a href="" class="">
-										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+										<img class="img-fluid mx-auto" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
 									</a>
 								</li>
 								<li>
@@ -99,18 +99,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<div class="box box-general box-app text-uppercase">
 							<h2>
 								<span>
-									Gana
-									<br>
-									premios
+									Gana premios
 								</span>
 								<br>
-								Diseñada
-								conectando los registros de tus actividades de Garmin, Wahoo y Polar.
+								conectando <br> los registros <br> de tus <br> actividades de <br> Garmin, Wahoo <br> y Polar.
 							</h2>
 							<ul class="inline-list-grid my-5">
 								<li>
 									<a href="" class="">
-										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+										<img class="img-fluid mx-auto" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
 									</a>
 								</li>
 								<li>
@@ -140,12 +137,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<h2>
 							<span class="">
 								Participa en la liga virtual,</span>
+								<br>
 								sube de nivel y compite con corredores de tu misma categoría.
 							</h2>
 							<ul class="inline-list-grid my-5">
 								<li>
 									<a href="" class="">
-										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+										<img class="img-fluid mx-auto" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
 									</a>
 								</li>
 								<li>
@@ -178,7 +176,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<ul class="inline-list-grid my-5">
 								<li>
 									<a href="" class="">
-										<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+										<img class="img-fluid mx-auto" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
 									</a>
 								</li>
 								<li>
@@ -210,10 +208,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</h2>
 							<ul class="inline-list-grid my-5">
 								<li>
-									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+									<img class="img-fluid mx-auto" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
 								</li>
 								<li>
-									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+									<img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/logo-google-play.png" alt="">
 								</li>
 							</ul>
 						</div>
@@ -252,7 +250,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 								<div class="paragraf">
 									<p>
-										DISEÑADAS en circuitos locales. Gana grandes premios y acumula puntos para ser el capo de la temporada.
+										diseñadas en circuitos locales. Gana grandes premios y acumula puntos para ser el  <b>capo de la temporada.</b>
 									</p>
 								</div>
 							</div>
@@ -285,7 +283,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 								<div class="paragraf">
 									<p>
-										el de montaña, Sprint y el más combativo. Suma puntos para ser el capo de la temporada.
+										el de montaña, Sprint y el más combativo. Suma puntos para ser el <b>capo de la temporada.</b>
 									</p>
 								</div>
 							</div>
@@ -318,7 +316,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 								<div class="paragraf">
 									<p>
-										bate tus propias marcas, escala más, ve más lejos, se más rápido.
+										bate tus propias marcas, escala más, ve más lejos, <b>se más rápido.</b>
 									</p>
 								</div>
 							</div>
@@ -351,7 +349,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 								<div class="paragraf">
 									<p>
-										y compite con tu equipo. Clasifica por distancia, metros escalados, tiempo de recorrido y cantidad de actividades registradas.
+										<b>y compite con tu equipo.</b>	Clasifica por distancia, metros escalados, tiempo de recorrido y cantidad de actividades registradas.
 									</p>
 								</div>
 							</div>
@@ -369,9 +367,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row">
 			<div class="col-12 my-5 py-4">
 				<div class="box box-member box-member-intro">
-					<div class="title text-center text-uppercase" data-aos="fade-right" >
+					<div class="title text-center text-uppercase" >
 						<h2>
-						 	Para los deportistas de Fin de semana y para los que dan el todo por el todo.
+						 	 Para los deportistas de Fin de semana <br> <b>y para los que dan el todo por el todo.</b>
 						</h2>
 					</div>
 				</div>
@@ -384,12 +382,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<h2>
 						 	Mem <br>
 						 	Bre <br>
-						 	Sia
+						 	Sía
 						</h2>
 					</div>
 					<div class="title text-uppercase text-center d-block d-lg-none">
 						<h2>
-						 	MemBreSia
+						 	MemBreSía
 						</h2>
 					</div>
 				</div>
@@ -423,7 +421,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<ul class="inline-list-grid content mb-3">
 						<li class="w-70">
 							<p>
-								% de descuento por superar sus personal récords en un periodo especifico (RP)
+								% de descuento por superar sus personal récords en un periodo especifico (RP).
 							</p>
 						</li>
 						<li class="text-center"><i class="icon icon-check"></i></li>
@@ -432,7 +430,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<ul class="inline-list-grid content mb-3">
 						<li class="w-70">
 							<p>
-								Rankeo en la tabla general (Montaña, distancia, tiempo en movimiento, ranking en tabla general, cantidad de salidas, Avg Pace….)
+								Rankeo en la tabla general (Montaña, distancia, tiempo en movimiento, ranking en tabla general, cantidad de salidas, Avg Pace...).
 							</p>
 						</li>
 						<li class="text-center"><i class="icon icon-check"></i></li>
@@ -441,7 +439,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<ul class="inline-list-grid content mb-3">
 						<li class="w-70">
 							<p>
-								Ganar puntos deEXPERIENCIA para redimir por productos de la tienda oficial.
+								Ganar puntos de EXPERIENCIA para redimir por productos de la tienda oficial.
 							</p>
 						</li>
 						<li class="text-center"><i class="icon icon-check"></i></li>
@@ -454,12 +452,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</p>
 						</li>
 						<li class="text-center"><i class="icon icon-check"></i></li>
-						<li class="text-center"><i class="icon icon-nocheck"></i></li>
+						<li class="text-center"><i class="icon icon-check"></i></li>
 					</ul>
 					<ul class="inline-list-grid content mb-3">
 						<li class="w-70">
 							<p>
-								Rank y premiación por categorías
+								Rank y premiación por categorías.
 							</p>
 						</li>
 						<li class="text-center"><i class="icon icon-check"></i></li>
@@ -468,7 +466,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<ul class="inline-list-grid content mb-3">
 						<li class="w-70">
 							<p>
-								Rank y premiación por categorías
+								Premiación retos generales (Montaña, Sprint y combatividad).
 							</p>
 						</li>
 						<li class="text-center"><i class="icon icon-check"></i></li>
@@ -477,7 +475,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<ul class="inline-list-grid content mb-3">
 						<li class="w-70">
 							<p>
-								Premiación retos generales (Montaña, Sprint y combatividad)
+								Creación del CLUB para rankear entre amigos.
 							</p>
 						</li>
 						<li class="text-center"><i class="icon icon-check"></i></li>
@@ -486,16 +484,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<ul class="inline-list-grid content mb-3">
 						<li class="w-70">
 							<p>
-								Creación del CLUB para rankear entre amigos
-							</p>
-						</li>
-						<li class="text-center"><i class="icon icon-check"></i></li>
-						<li class="text-center"><i class="icon icon-nocheck"></i></li>
-					</ul>
-					<ul class="inline-list-grid content mb-3">
-						<li class="w-70">
-							<p>
-								Creación de segmentos para rankear y ganar KOM
+								Creación de segmentos para rankear y ganar KOM.
 							</p>
 						</li>
 						<li class="text-center"><i class="icon icon-check"></i></li>
@@ -521,7 +510,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <section id="people" class="bgi people" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-people.png')">
 	<div class="container">
 		<div class="row">
-			<div class="col py-5">
+			<div class="col py-5 mb-3">
 			<ul class="js-people w-100">
 				<li>
 					<div class="box box-people">
@@ -535,6 +524,40 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="title">
 								<h2>
 									Martin Gómez
+								</h2>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="box box-people">
+						<figure><img class="img-fluid " src="<?php bloginfo('template_directory') ?>/images/theme/people-2.png" alt="people"></figure>
+						<div class="content">
+							<div class="paragraf">
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae quisquam rerum ducimus quaerat eaque natus.
+								</p>
+							</div>
+							<div class="title">
+								<h2>
+									Camila Gomez
+								</h2>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="box box-people">
+						<figure><img class="img-fluid " src="<?php bloginfo('template_directory') ?>/images/theme/people-2.png" alt="people"></figure>
+						<div class="content">
+							<div class="paragraf">
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae quisquam rerum ducimus quaerat eaque natus.
+								</p>
+							</div>
+							<div class="title">
+								<h2>
+									Camila Gomez
 								</h2>
 							</div>
 						</div>

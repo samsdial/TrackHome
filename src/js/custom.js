@@ -38,6 +38,8 @@ $(document).ready(function () {
 	$('.js-people').slick({
 		slidesToShow: 2,
 		slidesToScroll: 1,
+		dots: true,
+		arrows: false,
 		responsive: [
 			{
 				breakpoint: 1024,

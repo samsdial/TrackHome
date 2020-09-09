@@ -14,7 +14,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
-<footer id="social" class="py-4">
+<footer id="social" class="py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 mx-auto">
@@ -35,9 +35,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</a>
 					</li>
 				</ul>
-				<div class="box box-footer d-block text-center my-3">
+				<div class="box box-footer d-block text-center my-5">
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis animi voluptas nisi.
+						© 2020 Copyright made with all right reserved
 					</p>
 				</div>
 			</div>

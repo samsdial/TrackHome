@@ -1,5 +1,6 @@
 var $ = jQuery;
 $(document).ready(function () {
+	AOS.init();
 	//js-slider-offer
 	$('.js-partners').slick({
 		slidesToShow: 5,
@@ -86,7 +87,15 @@ $(document).ready(function () {
 	});
 
 });
-
+document.addEventListener('aos:in', ({
+	detail
+}) => {
+	console.log('animated in', detail);
+});
+//
+document.querySelectorAll('body[id="page"]').forEach(anchor => {
+	console.log('animated in', detail);
+});
 //
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -98,4 +107,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-AOS.init();
+

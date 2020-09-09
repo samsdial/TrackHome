@@ -58,31 +58,33 @@
 		min-height: rem-calc(850px)
 		+MQMAX(SL)
 			min-height: rem-calc(520px)
-		figure.item
-			display: inline-block
+		.figure
 			position: absolute
-			width: 75%
-			@media (max-width: $XL)
-				width: 425px
-			+MQMAX(L)
-				width: 325px
-			+MQMAX(SL)
-				width: 268px
-			&-01
-				top: -65px
-				right: 0px
-				+MQMAX(SL)
-					top: -103px
-					right: -30px
-					z-index: 1
-			&-02
-				top: 80px
-				left: -158px
-				@media (max-width: $XL)
-					left: -85px
-				+MQMAX(SL)
+			top: -155px
+			left: 0
+			right: 0
+			height: 0
+			width: 100%
+			display: block
+			figure.item
+				display: inline-block
+				position: relative
+				width: 75%
+				&-01
 					top: 0
-					left: 0
+					right: -175px
+					+MQMAX(SL)
+						top: -103px
+						right: -30px
+						z-index: 1
+				&-02
+					top: -580px
+    				left: -158px
+					@media (max-width: $XL)
+						left: -85px
+					+MQMAX(SL)
+						top: 0
+						left: 0
 .box-member
 	&-intro
 		.title

@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row align-items-center ">
 			<div class="col-12 col-lg-6 order-2 order-lg-1"></div>
 			<div class="col-12 col-lg-6 order-1 order-lg-2">
-				<div class="box box-general box-intro">
+				<div class="box box-general box-intro" data-aos="fade-left" >
 					<h1>
 						PASIÓN
 						<br>
@@ -50,8 +50,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row align-items-md-center">
 					<div class="col-12 col-md-6">
 						<div class="box box-app box-app-image">
-							<figure class="item item-01 " ><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-01.png" alt=""></figure>
-							<figure class="item item-02" ><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-02.png" alt=""></figure>
+							<div class="figure">
+								<figure class="item item-01" ><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-01.png" alt=""></figure>
+								<figure class="item item-02" ><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-02.png" alt=""></figure>
+							</div>
 						</div>
 					</div>
 					<div class="col-12 col-md-6">
@@ -87,8 +89,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row align-items-lg-center">
 					<div class="col-12 col-lg-6">
 						<div class="box box-app box-app-image">
-							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-03.png" alt=""></figure>
-							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-04.png" alt=""></figure>
+							<div class="figure">
+								<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-03.png" alt=""></figure>
+								<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-04.png" alt=""></figure>
+							</div>
 						</div>
 					</div>
 					<div class="col-12 col-lg-6">
@@ -125,8 +129,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row align-items-lg-center">
 					<div class="col-12 col-lg-6">
 						<div class="box box-app box-app-image">
-							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-05.png" alt=""></figure>
-							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-06.png" alt=""></figure>
+							<div class="figure">
+								<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-05.png" alt=""></figure>
+								<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-06.png" alt=""></figure>
+							</div>
 						</div>
 					</div>
 					<div class="col-12 col-lg-6">
@@ -158,8 +164,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row align-items-lg-center">
 					<div class="col-12 col-lg-6">
 						<div class="box box-app box-app-image">
-							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-07.png" alt=""></figure>
-							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-08.png" alt=""></figure>
+							<div class="figure">
+								<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-07.png" alt=""></figure>
+								<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-08.png" alt=""></figure>
+							</div>
 						</div>
 					</div>
 					<div class="col-12 col-lg-6">
@@ -189,8 +197,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row align-items-lg-center">
 					<div class="col-12 col-lg-6">
 						<div class="box box-app box-app-image">
-							<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-09.png" alt=""></figure>
-							<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-010.png" alt=""></figure>
+							<div class="figure">
+								<figure class="item item-01"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-09.png" alt=""></figure>
+								<figure class="item item-02"><img class="img-fluid" src="<?php bloginfo('template_directory') ?>/images/theme/cel-010.png" alt=""></figure>
+							</div>
 						</div>
 					</div>
 					<div class="col-12 col-lg-6">
@@ -359,7 +369,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row">
 			<div class="col-12 my-5 py-4">
 				<div class="box box-member box-member-intro">
-					<div class="title text-center text-uppercase">
+					<div class="title text-center text-uppercase" data-aos="fade-right" >
 						<h2>
 						 	Para los deportistas de Fin de semana y para los que dan el todo por el todo.
 						</h2>

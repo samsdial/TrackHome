@@ -367,7 +367,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row">
 			<div class="col-12 my-5 py-4">
 				<div class="box box-member box-member-intro">
-					<div class="title text-center text-uppercase" >
+					<div class="title text-center text-uppercase" data-anijs="if: mouseover, do: swing animated">
 						<h2>
 						 	 Para los deportistas de Fin de semana <br> <b>y para los que dan el todo por el todo.</b>
 						</h2>
@@ -378,7 +378,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row align-items-center min-row pb-5">
 			<div class="col-12 col-lg-4">
 				<div class="box box-member box-member-max">
-					<div class="title text-uppercase d-none d-lg-block">
+					<div class="title text-uppercase d-none d-lg-block animate__animated animate__bounceInLeft animate__delay-2s">
 						<h2>
 						 	Mem <br>
 						 	Bre <br>

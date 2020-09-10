@@ -1,6 +1,6 @@
 var $ = jQuery;
 $(document).ready(function () {
-	AOS.init();
+
 	//js-slider-offer
 	$('.js-partners').slick({
 		slidesToShow: 5,
@@ -87,17 +87,25 @@ $(document).ready(function () {
 		cssEase: 'linear',
 		arrows: false,
 	});
+});
 
+$(document).scroll(function () { // OR  $(window).scroll(function() {
+	didScroll = true;
 });
-document.addEventListener('aos:in', ({
-	detail
-}) => {
-	console.log('animated in', detail);
-});
+
+ $('body').scroll(function () {
+ 	AOS.init();
+ });
+
 //
-document.querySelectorAll('body[id="page"]').forEach(anchor => {
-	console.log('animated in', detail);
-});
+window.onload = function () {
+	console.log('scroll')
+	AOS.init({
+		useClassNames: true,
+		initClassName: false,
+		animatedClassName: 'animated',
+	});
+}
 //
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

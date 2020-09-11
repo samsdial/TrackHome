@@ -7132,17 +7132,35 @@ $(document).ready(function () {
     cssEase: 'linear',
     arrows: false
   });
+
+  if (this.hasAnimateOnScrollElements && !this.aosRefreshed && AOS !== undefined) {
+    this.aosRefreshed = true;
+    AOS.refresh();
+  }
 });
-$(document).scroll(function () {
-  // OR  $(window).scroll(function() {
-  didScroll = true;
-});
-$('body').scroll(function () {
-  AOS.init();
+
+const animateCSS = (element, animation, prefix = 'animate__') => // We create a Promise and return it
+new Promise((resolve, reject) => {
+  const animationName = `${prefix}${animation}`;
+  const node = document.querySelector(element);
+  node.classList.add(`${prefix}animated`, animationName); // When the animation ends, we clean the classes and resolve the Promise
+
+  function handleAnimationEnd() {
+    node.classList.remove(`${prefix}animated`, animationName);
+    node.removeEventListener('animationend', handleAnimationEnd);
+    resolve('Animation ended');
+  }
+
+  node.addEventListener('animationend', handleAnimationEnd);
 }); //
 
+
+window.addEventListener('scoll', function (e) {
+  console.log('scroll up');
+});
+
 window.onload = function () {
-  console.log('scroll');
+  console.log('scroll down');
   AOS.init({
     useClassNames: true,
     initClassName: false,

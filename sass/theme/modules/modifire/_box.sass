@@ -62,32 +62,53 @@
 		min-height: rem-calc(722px)
 		+MQMAX(SL)
 			min-height: rem-calc(520px)
+		+MQMAX(S)
+			min-height: rem-calc(472px)
 		.figure
 			position: absolute
 			top: -155px
 			left: 0
 			right: 0
-			height: 0
+			height: auto
 			width: 100%
 			display: block
 			figure.item
 				display: inline-block
 				position: relative
 				width: 75%
+				+MQMAX(SL)
+					width: 82%
+				+MQMAX(S)
+					display: block
 				&-01
 					top: 0
 					right: -175px
 					+MQMAX(SL)
 						top: 0
-						right: -30px
-				&-02
-					top: -580px
-    				left: -158px
-					@media (max-width: $XL)
-						left: -85px
-					+MQMAX(SL)
+						right: -75px
+					+MQMAX(M)
+						top: 0px
+						right: -123px
+					+MQMAX(S)
 						top: 0
 						right: -30px
+						margin: 0 auto
+				&-02
+					top: -580px
+					left: 0
+					+MQMAX(SL)
+						top: -300px
+						right: 0
+					+MQMAX(M)
+						top: -600px
+						right: 0
+					+MQMAX(S)
+						top: -536px
+						left: 0
+					@media (max-width: $phone)
+						top: -366px
+					@media (max-width: 350px)
+						top: -236px
 .box-member
 	&-intro
 		.title
@@ -104,6 +125,8 @@
 				+MQMAX(SL)
 					font-size: rem-calc(60px)
 					border-bottom: 2px solid $primary
+				+MQMAX(S)
+					font-size: rem-calc(45px)
 	&-table
 		background-color: rgba($black, 0.2)
 		padding: $spacers4

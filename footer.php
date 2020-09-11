@@ -47,11 +47,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</div>
 	</div>
 </footer>
-  <!-- AniJS core library -->
-  <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+<!-- AniJS core library -->
+<script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
 
-  <!-- Include to use $addClass, $toggleClass or $removeClass -->
-  <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+<!-- Include to use $addClass, $toggleClass or $removeClass -->
+<script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
 
 <?php wp_footer(); ?>
 

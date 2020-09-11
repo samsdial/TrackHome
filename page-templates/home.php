@@ -122,7 +122,7 @@ if ( is_front_page() ) {
 		<div class="row">
 			<div class="col-12 my-5 py-4">
 				<div class="box box-member box-member-intro">
-					<!-- <div class="title text-center text-uppercase" data-anijs="if: mouseover, do: zoomInUp animated"> -->
+					<!-- <div class="title text-center text-uppercase animate__animated animate__fadeInDown animate__delay-4s" data-anijs="if: mouseover, do: zoomInUp animated"> -->
 					<div class="title text-center text-uppercase animate__animated animate__fadeInDown animate__delay-4s">
 						<?php the_field( 'titulo_member' ); ?>
 					</div>
@@ -191,7 +191,7 @@ if ( is_front_page() ) {
 					<ul class="js-people w-100">
 					<?php while( have_rows('people') ): the_row();?>
 						<li>
-							<div class="box box-people" data-anijs="if: mouseover, do: pulse animated" >
+							<div class="box box-people"  data-anijs="if: mouseover, do: pulse animated" >
 								<figure><img class="img-fluid " src="<?php the_sub_field('img_people'); ?>" alt="people"></figure>
 								<div class="content">
 									<div class="paragraf">

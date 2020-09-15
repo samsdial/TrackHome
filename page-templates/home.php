@@ -43,25 +43,25 @@ if ( is_front_page() ) {
 			<div class="col-12 col-md-6">
 				<div class="box box-app box-app-image">
 					<div class="figure animate__animated animate__bounceIn animate__delay-2s">
-						<figure class="item item-01" data-anijs="if: mouseover, do: tada animated" ><img class="img-fluid" src="<?php the_sub_field('iphone_img'); ?>" alt="iphone"></figure>
-						<figure class="item item-02" data-anijs="if: mouseover, do: tada animated" ><img class="img-fluid" src="<?php the_sub_field('samsung_img'); ?>" alt="samsung"></figure>
+						<figure class="item item-01 animate__animated animate__pulse infinite bounce" ><img class="img-fluid" src="<?php the_sub_field('iphone_img'); ?>" alt="iphone"></figure>
+						<figure class="item item-02 animate__animated animate__pulse infinite bounce" ><img class="img-fluid" src="<?php the_sub_field('samsung_img'); ?>" alt="samsung"></figure>
 					</div>
 				</div>
 			</div>
 			<div class="col-12 col-md-6">
 				<div class="box box-general box-app text-uppercase">
-					<div class="animate__animated animate__fadeIn animate__delay-2s">
+					<div class="animate__animated animate__fadeIn animate__delay-2s animate__slower">
 						<?php the_sub_field('info_app'); ?>
 					</div>
 					<ul class="inline-list-grid my-5">
 						<li>
 							<a href="<?php the_field('app_store', 'option'); ?>" class="">
-								<img class="img-fluid mx-auto" data-anijs="if: mouseover, do: wobble animated" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
+								<img class="img-fluid mx-auto" data-anijs="if: mouseover, do: pulse animated" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
 							</a>
 						</li>
 						<li>
 							<a href="<?php the_field('store_google', 'option'); ?>" class="" >
-								<img class="img-fluid" data-anijs="if: mouseover, do: wobble animated" src="<?php bloginfo('template_directory') ?>/images/theme/logo-google-play.png" alt="">
+								<img class="img-fluid" data-anijs="if: mouseover, do: pulse animated" src="<?php bloginfo('template_directory') ?>/images/theme/logo-google-play.png" alt="">
 							</a>
 						</li>
 					</ul>
@@ -123,7 +123,7 @@ if ( is_front_page() ) {
 			<div class="col-12 my-5 py-4">
 				<div class="box box-member box-member-intro">
 					<!-- <div class="title text-center text-uppercase animate__animated animate__fadeInDown animate__delay-4s" data-anijs="if: mouseover, do: zoomInUp animated"> -->
-					<div class="title text-center text-uppercase animate__animated animate__fadeInDown animate__delay-4s">
+					<div class="title text-center text-uppercase animate__animated animate__fadeInDown animate__delay-5s animate__slow">
 						<?php the_field( 'titulo_member' ); ?>
 					</div>
 				</div>
@@ -132,7 +132,7 @@ if ( is_front_page() ) {
 		<div class="row align-items-center min-row pb-5">
 			<div class="col-12 col-lg-4">
 				<div class="box box-member box-member-max">
-					<div class="title text-uppercase d-none d-lg-block animate__animated animate__bounceInLeft animate__delay-5s" data-anijs="if: mouseover, do: flip animated">
+					<div class="title text-uppercase d-none d-lg-block animate__animated animate__bounceInLeft animate__delay-5s">
 						<h2>
 						 	Mem <br>
 						 	Bre <br>
@@ -150,13 +150,13 @@ if ( is_front_page() ) {
 				<div class="box box-member box-member-table">
 					<ul class="inline-list-grid intro mb-3">
 						<li class="w-70"><span></span></li>
-						<li data-anijs="if: mouseover, do: swing animated">
+						<li>
 							<i class="icon icon-diamon m-2"></i>
 							<h2>
 								Diamond
 							</h2>
 						</li>
-						<li data-anijs="if: mouseover, do: swing animated">
+						<li>
 							<i class="icon icon-gold m-2"></i>
 							<h2>
 								Gold

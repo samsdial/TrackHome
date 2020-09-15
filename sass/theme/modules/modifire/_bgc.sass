@@ -11,8 +11,13 @@
 			min-height: $heightSection
 			+MQMAX(SL)
 				min-height: rem-calc(750px)
+	&.entry
+		background-color: $black
+		.row
+			min-height: rem-calc(350px)
 	&.app
 		background-color: $primary
+		background-attachment: fixed !important
 		.row
 			min-height: rem-calc(700px)
 			+MQMAX(M)
@@ -23,6 +28,7 @@
 			min-height: $heightSection
 	&.member
 		background-color: $black
+		background-attachment: fixed !important
 		.min-row
 			min-height: rem-calc(436px)
 	&.people
@@ -33,6 +39,8 @@
 				min-height: rem-calc(550px)
 
 .bgc
+	&-black
+		background: rgba($black, 0.5)
 	&--primary
 		background: $primary
 	&--primarylight

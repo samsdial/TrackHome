@@ -91,6 +91,10 @@ $(document).ready(function () {
 		this.aosRefreshed = true;
 		AOS.refresh();
 	}
+	$('.nav-link').on('click', function () {
+		$('.navbarNavDropdown').removeClass('collapse');
+		$('.navbarNavDropdown').removeClass('show');
+	});
 });
 
 
@@ -114,18 +118,16 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
 	});
 
 //
-window.addEventListener('scoll', function(e){
-	console.log('scroll up')
-})
 
 
 window.onload = function () {
-	console.log('scroll down')
 	AOS.init({
 		useClassNames: true,
 		initClassName: false,
 		animatedClassName: 'animated',
 	});
+
+
 }
 //
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -139,3 +141,34 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+document.addEventListener('click', function (event) {
+	let navbar = document.querySelector('#navbarNavDropdown');
+	let button = document.querySelector('.navbar-toggler');
+	if (event.target.matches('.nav-link')) {
+		navbar.classList.remove('show');
+		button.setAttribute('aria-expanded', 'false');
+		// alert("remove faq display!");
+	}
+}, false);
+
+document.body.addEventListener('scroll', () => {
+	let scrollHeight = document.body.scrollTop;
+	let header = document.querySelector('.navbar');
+	//console.log(document.documentElement.scrollTop || document.body.scrollTop);
+	//console.log(document.body.scrollTop);
+
+	if (0 < scrollHeight) {
+		header.classList.add("fixed-top");
+		header.classList.add("bgc-black");
+	} else if (0 >= scrollHeight) {
+		header.classList.remove("fixed-top");
+		header.classList.remove("bgc-black");
+	}
+	//
+	let animated = document.querySelector('.animate__animated');
+	if (1899 == scrollHeight) {
+		animated.classList.add("animate__fadeInDown");
+		console.log('open')
+	}
+	// scrollHeight = scrollY;
+})

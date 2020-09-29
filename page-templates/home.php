@@ -41,7 +41,7 @@ if ( is_front_page() ) {
 	<div class="container">
 		<div class="row align-items-md-center">
 			<div class="col-12 col-md-6">
-				<div class="box box-app box-app-image">
+				<div class="box box-app-image">
 					<div class="figure animate__animated animate__bounceIn animate__delay-2s">
 						<figure class="item item-01 animate__animated animate__pulse infinite bounce" ><img class="img-fluid" src="<?php the_sub_field('iphone_img'); ?>" alt="iphone"></figure>
 						<figure class="item item-02 animate__animated animate__pulse infinite bounce" ><img class="img-fluid" src="<?php the_sub_field('samsung_img'); ?>" alt="samsung"></figure>
@@ -49,11 +49,11 @@ if ( is_front_page() ) {
 				</div>
 			</div>
 			<div class="col-12 col-md-6">
-				<div class="box box-general box-app text-uppercase">
-					<div class="animate__animated animate__fadeIn animate__delay-2s animate__slower">
+				<div class="box box-general box-app text-uppercase d-flex align-items-start flex-column" >
+					<div class="animate__animated animate__fadeIn animate__delay-2s animate__slower mt-5 ml-2 w-100 text-center">
 						<?php the_sub_field('info_app'); ?>
 					</div>
-					<ul class="inline-list-grid my-5">
+					<ul class="inline-list-grid mt-auto">
 						<li>
 							<a href="<?php the_field('app_store', 'option'); ?>" class="">
 								<img class="img-fluid mx-auto" data-anijs="if: mouseover, do: pulse animated" src="<?php bloginfo('template_directory') ?>/images/theme/logo-apple-store.png" alt="">
@@ -118,8 +118,8 @@ if ( is_front_page() ) {
 <!-- RACE END-->
 <!-- MEMBER -->
 <section id="member" class="bgi member" style="background-image:url('<?php bloginfo('template_directory') ?>/images/banners/bgi-member.png')">
-	<div class="container">
-		<div class="row">
+	<div class="container py-5">
+		<div class="row py-5">
 			<div class="col-12 my-5 py-4">
 				<div class="box box-member box-member-intro">
 					<!-- <div class="title text-center text-uppercase animate__animated animate__fadeInDown animate__delay-4s" data-anijs="if: mouseover, do: zoomInUp animated"> -->

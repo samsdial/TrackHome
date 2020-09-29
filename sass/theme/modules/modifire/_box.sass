@@ -54,12 +54,15 @@
 			justify-content: center
 
 .box-app
+	height: 336px
+	+MQ(SL)
+		height: 500px
 	h2, h3
 		color: $white
 		font-size: rem-calc(49px)
 		line-height: .9
 		+MQMAX(SL)
-			font-size: rem-calc(38px)
+			font-size: rem-calc(32px)
 			text-align: center
 		span
 			color: $terciary
@@ -69,7 +72,7 @@
 		+MQMAX(SL)
 			min-height: rem-calc(520px)
 		+MQMAX(S)
-			min-height: rem-calc(472px)
+			min-height: rem-calc(400px)
 		.figure
 			position: absolute
 			top: -155px
@@ -160,6 +163,8 @@
 					font-size: $h5-font-size
 					font-weight: $weight-bold
 					text-transform: uppercase
+					+MQMAX(M)
+						font-size: rem-calc(11px)
 
 //BOX PEOPLE
 .box-people

@@ -72,14 +72,14 @@ header
 			font-weight: $weight-normal
 			+press
 				color: $primary
-			+MQMAX(M)
+			@media (max-width: 767px)
 				color: $black
 				+press
 					color: $black
 					text-transform: underline
 //
 .navbar-collapse
-	+MQMAX(M)
+	@media (max-width: 767px)
 		position: absolute
 		top: 0
 		width: 100%

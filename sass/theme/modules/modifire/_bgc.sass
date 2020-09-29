@@ -5,6 +5,11 @@
 	&.intro
 		background-color: $black
 		+MQMAX(M)
+			background-position: -65px 112px
+			background-size: cover
+		@media (max-width: 550px)
+			background-position: -211px 55px
+		+MQMAX(S)
 			background-position: -261px 112px
 			background-size: 363%
 		.row
@@ -21,9 +26,12 @@
 		.row
 			min-height: rem-calc(700px)
 			+MQMAX(M)
-				min-height: rem-calc(1036px)
+				min-height: rem-calc(1004px)
 	&.racer
 		background-color: $black
+		background-position-x: -450px
+		+MQMAX(M)
+			padding: 150px 0
 		.row
 			min-height: $heightSection
 	&.member

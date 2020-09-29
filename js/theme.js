@@ -7059,13 +7059,17 @@ $(document).ready(function () {
   $('.js-partners').slick({
     slidesToShow: 5,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [{
       breakpoint: 1024,
       settings: {
         slidesToShow: 5,
         slidesToScroll: 1,
         dots: false,
-        arrows: false
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000
       }
     }, {
       breakpoint: 600,
@@ -7073,7 +7077,9 @@ $(document).ready(function () {
         slidesToShow: 2,
         slidesToScroll: 2,
         dots: false,
-        arrows: false
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000
       }
     }, {
       breakpoint: 480,
@@ -7081,7 +7087,9 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
-        arrows: false
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000
       }
     }]
   });
@@ -7090,13 +7098,17 @@ $(document).ready(function () {
     slidesToScroll: 1,
     dots: true,
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [{
       breakpoint: 1024,
       settings: {
         slidesToShow: 5,
         slidesToScroll: 1,
         dots: false,
-        arrows: false
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000
       }
     }, {
       breakpoint: 992,
@@ -7104,7 +7116,9 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
-        arrows: false
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000
       }
     }, {
       breakpoint: 480,
@@ -7112,7 +7126,9 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
-        arrows: false
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000
       }
     }]
   });
@@ -7122,7 +7138,9 @@ $(document).ready(function () {
     dots: true,
     fade: true,
     cssEase: 'linear',
-    arrows: false
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000
   });
   $('.js-race').slick({
     slidesToShow: 1,
@@ -7130,7 +7148,9 @@ $(document).ready(function () {
     dots: true,
     fade: true,
     cssEase: 'linear',
-    arrows: false
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000
   });
 
   if (this.hasAnimateOnScrollElements && !this.aosRefreshed && AOS !== undefined) {
@@ -7192,10 +7212,8 @@ document.body.addEventListener('scroll', () => {
   //console.log(document.body.scrollTop);
 
   if (0 < scrollHeight) {
-    header.classList.add("fixed-top");
     header.classList.add("bgc-black");
   } else if (0 >= scrollHeight) {
-    header.classList.remove("fixed-top");
     header.classList.remove("bgc-black");
   } //
 

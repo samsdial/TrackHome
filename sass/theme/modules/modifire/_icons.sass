@@ -16,6 +16,8 @@
 			background-image: url('#{$iconPath}logo-track.svg')
 			width: $sizeLogoWithMax
 			height: $sizeLogoHeightMax
+			+MQMAX(M)
+				height: rem-calc(46px)
 		&-gray
 			&:before
 				background-image: url('#{$iconPath}logo-track-gray.svg')
@@ -50,24 +52,34 @@
 		background-image: url('#{$iconPath}diamon.svg')
 		width: $sizeIcon
 		height: $sizeIcon
+		+MQMAX(M)
+			width: rem-calc(32px)
+			height: rem-calc(32px)
 	&-gold:before
 		background-image: url('#{$iconPath}24k.svg')
 		width: $sizeIcon
 		height: $sizeIcon
+		+MQMAX(M)
+			width: rem-calc(32px)
+			height: rem-calc(32px)
 	&-club:before
 		background-image: url('#{$iconPath}club.svg')
+		background-image: url('#{$iconPath}club.png')
 		width: $sizeIcon
 		height: $sizeIcon
 	&-race:before
 		background-image: url('#{$iconPath}race.svg')
+		background-image: url('#{$iconPath}race.png')
 		width: $sizeIcon
 		height: $sizeIcon
 	&-ranking:before
 		background-image: url('#{$iconPath}ranking.svg')
+		background-image: url('#{$iconPath}ranking.png')
 		width: $sizeIcon
 		height: $sizeIcon
 	&-cup:before
 		background-image: url('#{$iconPath}copa.svg')
+		background-image: url('#{$iconPath}copa.png')
 		width: $sizeIcon
 		height: $sizeIcon
 	&-check:before
